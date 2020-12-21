@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/number_btn"
+        android:id="@+id/number_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="1"
