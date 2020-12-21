@@ -30,13 +30,12 @@ class MainActivity : AppCompatActivity() {
         // Update the screen with the dice roll
         when (diceRoll)
         {
-            1 -> resultImageView.setImageResource(R.drawable.one)
-            2 -> resultImageView.setImageResource(R.drawable.two)
-            3 -> resultImageView.setImageResource(R.drawable.three)
-            4 -> resultImageView.setImageResource(R.drawable.four)
-            5 -> resultImageView.setImageResource(R.drawable.five)
-            6 -> resultImageView.setImageResource(R.drawable.six)
-
+            1 -> resultImageView.setImageResource(R.drawable.dice_1)
+            2 -> resultImageView.setImageResource(R.drawable.dice_2)
+            3 -> resultImageView.setImageResource(R.drawable.dice_3)
+            4 -> resultImageView.setImageResource(R.drawable.dice_4)
+            5 -> resultImageView.setImageResource(R.drawable.dice_5)
+            6 -> resultImageView.setImageResource(R.drawable.dice_6)
         }
     }
 }

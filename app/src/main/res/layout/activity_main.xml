@@ -20,14 +20,14 @@
 
     <ImageView
         android:id="@+id/dice_iv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginBottom="150dp"
-        app:srcCompat="@drawable/one"
+        app:srcCompat="@drawable/dice_6"
         />
     <Button
         android:id="@+id/roll_btn"
@@ -39,7 +39,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="100dp"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
